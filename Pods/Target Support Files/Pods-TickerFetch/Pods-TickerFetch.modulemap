@@ -1,0 +1,6 @@
+framework module Pods_TickerFetch {
+  umbrella header "Pods-TickerFetch-umbrella.h"
+
+  export *
+  module * { export * }
+}

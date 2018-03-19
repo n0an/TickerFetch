@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185464DE205AAC18003F94C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464DD205AAC18003F94C4 /* AppDelegate.swift */; };
+		185464E5205AAC18003F94C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185464E4205AAC18003F94C4 /* Assets.xcassets */; };
+		185464E8205AAC18003F94C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185464E6205AAC18003F94C4 /* LaunchScreen.storyboard */; };
+		185464F0205AACE2003F94C4 /* TickersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464EF205AACE2003F94C4 /* TickersVC.swift */; };
+		185464F2205AADA0003F94C4 /* TickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464F1205AADA0003F94C4 /* TickerCell.swift */; };
+		185464F4205AC364003F94C4 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464F3205AC364003F94C4 /* Ticker.swift */; };
+		185464F8205ACAC0003F94C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464F7205ACAC0003F94C4 /* Constants.swift */; };
+		185464FA205B070B003F94C4 /* TickersPricesObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185464F9205B070B003F94C4 /* TickersPricesObserver.swift */; };
+		C62567DDE888DA3D10B2968F /* Pods_TickerFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB26BD2193EE923C501188DC /* Pods_TickerFetch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093FEB409FA578597039D6FA /* Pods-TickerFetch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFetch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TickerFetch/Pods-TickerFetch.release.xcconfig"; sourceTree = "<group>"; };
+		185464DA205AAC18003F94C4 /* TickerFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickerFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185464DD205AAC18003F94C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185464E4205AAC18003F94C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185464E7205AAC18003F94C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185464E9205AAC18003F94C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185464EF205AACE2003F94C4 /* TickersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersVC.swift; sourceTree = "<group>"; };
+		185464F1205AADA0003F94C4 /* TickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerCell.swift; sourceTree = "<group>"; };
+		185464F3205AC364003F94C4 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		185464F7205ACAC0003F94C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		185464F9205B070B003F94C4 /* TickersPricesObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersPricesObserver.swift; sourceTree = "<group>"; };
+		46B24718AC164B8C15D97D17 /* Pods-TickerFetch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFetch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TickerFetch/Pods-TickerFetch.debug.xcconfig"; sourceTree = "<group>"; };
+		CB26BD2193EE923C501188DC /* Pods_TickerFetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickerFetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185464D7205AAC18003F94C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62567DDE888DA3D10B2968F /* Pods_TickerFetch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185464D1205AAC18003F94C4 = {
+			isa = PBXGroup;
+			children = (
+				185464DC205AAC18003F94C4 /* TickerFetch */,
+				185464DB205AAC18003F94C4 /* Products */,
+				78E73495E751FC1A4C2E87DD /* Pods */,
+				37C59508EC7EA8BDD275CBF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185464DB205AAC18003F94C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185464DA205AAC18003F94C4 /* TickerFetch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185464DC205AAC18003F94C4 /* TickerFetch */ = {
+			isa = PBXGroup;
+			children = (
+				185464DD205AAC18003F94C4 /* AppDelegate.swift */,
+				185464F7205ACAC0003F94C4 /* Constants.swift */,
+				185464EF205AACE2003F94C4 /* TickersVC.swift */,
+				185464F1205AADA0003F94C4 /* TickerCell.swift */,
+				185464F9205B070B003F94C4 /* TickersPricesObserver.swift */,
+				185464F3205AC364003F94C4 /* Ticker.swift */,
+				185464E4205AAC18003F94C4 /* Assets.xcassets */,
+				185464E6205AAC18003F94C4 /* LaunchScreen.storyboard */,
+				185464E9205AAC18003F94C4 /* Info.plist */,
+			);
+			path = TickerFetch;
+			sourceTree = "<group>";
+		};
+		37C59508EC7EA8BDD275CBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB26BD2193EE923C501188DC /* Pods_TickerFetch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78E73495E751FC1A4C2E87DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B24718AC164B8C15D97D17 /* Pods-TickerFetch.debug.xcconfig */,
+				093FEB409FA578597039D6FA /* Pods-TickerFetch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185464D9205AAC18003F94C4 /* TickerFetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185464EC205AAC18003F94C4 /* Build configuration list for PBXNativeTarget "TickerFetch" */;
+			buildPhases = (
+				9AB28819CB0E048597A5D52D /* [CP] Check Pods Manifest.lock */,
+				185464D6205AAC18003F94C4 /* Sources */,
+				185464D7205AAC18003F94C4 /* Frameworks */,
+				185464D8205AAC18003F94C4 /* Resources */,
+				9CCB172A62E8BB610F47FFC4 /* [CP] Embed Pods Frameworks */,
+				DCDC46972572878BF219B94C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerFetch;
+			productName = TickerFetch;
+			productReference = 185464DA205AAC18003F94C4 /* TickerFetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185464D2205AAC18003F94C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anton Novoselov";
+				TargetAttributes = {
+					185464D9205AAC18003F94C4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 185464D5205AAC18003F94C4 /* Build configuration list for PBXProject "TickerFetch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185464D1205AAC18003F94C4;
+			productRefGroup = 185464DB205AAC18003F94C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185464D9205AAC18003F94C4 /* TickerFetch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185464D8205AAC18003F94C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185464E8205AAC18003F94C4 /* LaunchScreen.storyboard in Resources */,
+				185464E5205AAC18003F94C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AB28819CB0E048597A5D52D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickerFetch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCB172A62E8BB610F47FFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TickerFetch/Pods-TickerFetch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TickerFetch/Pods-TickerFetch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCDC46972572878BF219B94C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TickerFetch/Pods-TickerFetch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185464D6205AAC18003F94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185464F2205AADA0003F94C4 /* TickerCell.swift in Sources */,
+				185464F4205AC364003F94C4 /* Ticker.swift in Sources */,
+				185464DE205AAC18003F94C4 /* AppDelegate.swift in Sources */,
+				185464F0205AACE2003F94C4 /* TickersVC.swift in Sources */,
+				185464FA205B070B003F94C4 /* TickersPricesObserver.swift in Sources */,
+				185464F8205ACAC0003F94C4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185464E6205AAC18003F94C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185464E7205AAC18003F94C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185464EA205AAC18003F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185464EB205AAC18003F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185464ED205AAC18003F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B24718AC164B8C15D97D17 /* Pods-TickerFetch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 358V8FBM3U;
+				INFOPLIST_FILE = TickerFetch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonnovoselov.TickerFetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185464EE205AAC18003F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093FEB409FA578597039D6FA /* Pods-TickerFetch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 358V8FBM3U;
+				INFOPLIST_FILE = TickerFetch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonnovoselov.TickerFetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185464D5205AAC18003F94C4 /* Build configuration list for PBXProject "TickerFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185464EA205AAC18003F94C4 /* Debug */,
+				185464EB205AAC18003F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185464EC205AAC18003F94C4 /* Build configuration list for PBXNativeTarget "TickerFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185464ED205AAC18003F94C4 /* Debug */,
+				185464EE205AAC18003F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185464D2205AAC18003F94C4 /* Project object */;
+}
